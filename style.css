@@ -48,6 +48,8 @@ input::placeholder {
   color: #926a57;
   font-size: 30px;
   font-family: "Avenir";
+	text-align: center;
+	
 }
 .small-font-style {
   font-family: "Avenir";
@@ -112,32 +114,32 @@ input::placeholder {
 
 
 @font-face {
-  font-family: "Avenir";
-  src: url("fonts/Avenir.ttc") format("truetype");
+  font-family: 'Avenir';
+  src: url('fonts/Avenir.ttc') format('truetype');
 }
-  {
-  font-family: "Aescudos";
-  src: url("fonts/Aescudos.otf") format("opentype");
+@font-face {
+  font-family: 'Aescudos';
+  src: url('fonts/Aescudos.otf') format('opentype');
 }
-  {
-  font-family: "Aldine";
-  src: url("fonts/Aldine.ttf") format("truetype");
+@font-face {
+  font-family: 'Aldine';
+  src: url('fonts/Aldine.ttf') format('truetype');
 }
-  {
-  font-family: "Park Lane";
-  src: url("fonts/ParkLaneNF.ttf") format("truetype");
+@font-face {
+  font-family: 'Park Lane';
+  src: url('fonts/ParkLaneNF.ttf') format('truetype');
 }
-  {
-  font-family: "Savoye";
-  src: url("fonts/SavoyeLET.ttc") format("truetype");
+@font-face {
+  font-family: 'Savoye';
+  src: url('fonts/SavoyeLET.ttc') format('truetype');
 }
-  {
-  font-family: "Snell Round";
-  src: url("fonts/SnellRoundhand.ttc") format("truetype");
+@font-face {
+  font-family: 'Snell Round';
+  src: url('fonts/SnellRoundhand.ttc') format('truetype');
 }
-  {
-  font-family: "Zapfino";
-  src: url("fonts/Zapfino.ttf") format("truetype");
+@font-face {
+  font-family: 'Zapfino';
+  src: url('fonts/Zapfino.ttf') format('truetype');
 }
 
 @media screen and (max-width: 640px) {
