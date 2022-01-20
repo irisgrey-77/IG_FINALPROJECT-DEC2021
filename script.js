@@ -62,5 +62,9 @@ function changeStyle(invite) {
 
   if (invite == "invite3") {
     document.getElementById("invite-image").className = "style3";
+	  document.getElementById("inputMessageOne").style.color = "#cb8d91";
+	  document.getElementById("inputDate").style.color = "#cb8d91";
+	  document.getElementById("inputTime").style.color = "#cb8d91";
+	  document.getElementById("inputLocation").style.color = "#cb8d91";
   }
 }
